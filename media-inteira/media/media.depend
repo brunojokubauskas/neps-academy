@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1678822039 source:c:\users\bruno\desktop\neps-academy\media-inteira\media\main.c
+	<stdio.h>
+	<stdlib.h>
+
