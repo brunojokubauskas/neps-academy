@@ -11,5 +11,7 @@ int main(){
     strcpy(n2, "bruno",n1);
     printf("%s\n"m n2);
 
-
+    char n3[20] = "Bruno";
+    strcat(n1, "jokubauskas");
+    printf("%s\n", n1);
 }
