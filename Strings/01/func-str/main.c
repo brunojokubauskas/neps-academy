@@ -10,4 +10,6 @@ int main(){
     char n2[20];
     strcpy(n2, "bruno",n1);
     printf("%s\n"m n2);
+
+
 }
