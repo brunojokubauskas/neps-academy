@@ -5,4 +5,9 @@
 int main(){
     char nome[20] = "abc";
     printf("%d\n", strlen(nome));
+
+    char n1[20] = "abc";
+    char n2[20];
+    strcpy(n2, n1);
+    printf("%s\n"m n2);
 }
