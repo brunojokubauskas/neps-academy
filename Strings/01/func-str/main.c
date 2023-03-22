@@ -8,6 +8,6 @@ int main(){
 
     char n1[20] = "abc";
     char n2[20];
-    strcpy(n2, n1);
+    strcpy(n2, "bruno",n1);
     printf("%s\n"m n2);
 }
