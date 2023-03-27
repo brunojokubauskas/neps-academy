@@ -7,7 +7,8 @@ int main(){
     p[0] = 4;
     *(p+1) = 5;
     printf("%d %d\n", p[0], p[1]);
-
+    //Desalocando o espaço da memória...
+    free(p);
 
 return 0;
 }
