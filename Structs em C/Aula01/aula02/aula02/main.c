@@ -8,8 +8,10 @@ struct par {
 typedef struct par par;
 int main(){
     par x;
+    par *p = &x;
+
     //Acessando a partir de uma posição de  memória...
-    (&x) -> x = 1;
+    p -> x = 1;
     x.y = 2;
     printf("%d %d\n", x.x, x.y);
 }
